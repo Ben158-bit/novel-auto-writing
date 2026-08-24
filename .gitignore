@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+third_party_api.json
+.venv/
+venv/
+env/
+
+# Local provider credentials
+config/models_config.json
+
+# Runtime data
+data/**
+!data/.gitkeep
+
+# Logs
+logs/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local workflow and prototype output
+cache/
+outline/
+story/
+tasks/
+
+# Backup files
+*.bak
+*.backup
+
+# Frontend
+web/node_modules/
+web/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local Plugin overrides
+config/extension-overrides/
